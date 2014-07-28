@@ -65,3 +65,7 @@ body {
   height: 200px;
   font-size: 20px;
 }
+
+a {
+  color: #000;
+}
