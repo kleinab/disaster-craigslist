@@ -13,24 +13,26 @@
     </div>
     <div class='content'>
       <h2>Create a new post</h2>
-      <div id='postform_needgive'>
-        <p><input type='radio' name='needgive' id='needgive_need' />
-           <label for='needgive_need'>Need help</label></p>
-        <p><input type='radio' name='needgive' id='needgive_give' />
-           <label for='needgive_give'>Give help</label></p>
-      </div>
-      <hr />
-      <div id='postform_item'>
-        What do you need/what can you give? <br />
-        <textarea id="postbox"></textarea>
-      </div>
-      <hr />
-      <div id='postform_contact'>
-        <p>Name: <input type='text' /></p>
-        <p>Email: <input type='email '></p>
-        <p>Phone number: <input type='text' /></p>
-      </div>
-      <input type='submit' value='Submit!' />
+      <form action='index.html'>
+        <div id='postform_needgive'>
+          <p><input type='radio' name='needgive' id='needgive_need' />
+             <label for='needgive_need'>Need help</label></p>
+          <p><input type='radio' name='needgive' id='needgive_give' />
+             <label for='needgive_give'>Give help</label></p>
+        </div>
+        <hr />
+        <div id='postform_item'>
+          What do you need/what can you give? <br />
+          <textarea id="postbox"></textarea>
+        </div>
+        <hr />
+        <div id='postform_contact'>
+          <p>Name: <input type='text' /></p>
+          <p>Email: <input type='email '></p>
+          <p>Phone number: <input type='text' /></p>
+        </div>
+        <input type='submit' value='Submit!' />
+      </form>
     </div>
   </body>
 </html>
